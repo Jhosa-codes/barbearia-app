@@ -1,0 +1,37 @@
+# Environment variables (secret keys - nunca commitar)
+.env
+.env.local
+.env.*.local
+
+# Flutter / Dart
+.build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/package_config.json
+*.dart_tool/
+pubspec.lock
+
+# Build outputs
+android/app/build/
+android/app/outputs/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.dSYM
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Misc
+*.log
+*.tmp
+*.bak
