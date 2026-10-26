@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Estado: Flutter scaffoldado, dependências resolvidas (supabase_flutter, flutter_dotenv, http). Pronto para iniciar desenvolvimento do MVP 1.
+Estado: Estrutura base do Flutter criada e analisada (sem issues). Telas: Login, Home, Serviços, Reservas, Feed, Chat, Perfil. Modelos: User, Service, Professional, Booking. Serviço Supabase configurado. Pronto para conectar Supabase e Clerk.
 
 ## Stack
 - App móvel cliente: Flutter (Android + iOS), Flutter 3.47.8, Dart 3.13.7
