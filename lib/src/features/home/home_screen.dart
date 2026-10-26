@@ -143,7 +143,7 @@ class _HomeContent extends StatelessWidget {
               width: double.infinity,
               height: 56,
               child: ElevatedButton.icon(
-                onPressed: () {},
+                onPressed: () => Navigator.pushNamed(context, '/professionals'),
                 icon: const Icon(Icons.calendar_today),
                 label: const Text('Agendar horário'),
               ),

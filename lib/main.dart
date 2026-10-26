@@ -9,6 +9,7 @@ import 'src/features/bookings/bookings_screen.dart';
 import 'src/features/profile/profile_screen.dart';
 import 'src/features/feed/feed_screen.dart';
 import 'src/features/chat/chat_screen.dart';
+import 'src/features/professionals/professionals_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,6 +38,7 @@ class BarbeariaApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/home': (context) => const HomeScreen(),
         '/services': (context) => const ServicesScreen(),
+        '/professionals': (context) => const ProfessionalsScreen(),
         '/bookings': (context) => const BookingsScreen(),
         '/profile': (context) => const ProfileScreen(),
         '/feed': (context) => const FeedScreen(),
